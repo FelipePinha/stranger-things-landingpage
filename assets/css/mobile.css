@@ -118,3 +118,41 @@
         display: none;
     }
 }
+
+@media (max-width: 426px) {
+
+    /* STRANGER THINGS TRAILER */
+    
+    #section-stranger-things-trailer .video-frame iframe {
+        width: 100% !important;
+    }
+
+    /* SECTION GALLERY */
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* SECTION FORM */
+
+    #section-form h2 {
+        width: 80%;
+    }
+
+    #section-form .form-content {
+        width: 100%;
+    }
+
+    #section-form .form-content h3 {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    #section-form .form-container::after {
+        display: none;
+    }
+
+    #section-form .form-container {
+        width: 100%;
+    }
+}
